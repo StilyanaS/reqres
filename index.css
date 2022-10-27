@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600;800;900&display=swap");
+
+body {
+  background: rgb(29, 49, 56);
+  background: linear-gradient(
+    90deg,
+    rgba(29, 49, 56, 1) 36%,
+    rgba(63, 109, 140, 1) 100%
+  );
+  font-family: "Nunito", sans-serif;
+}
+img {
+  clip-path: circle(40%);
+}
+.card {
+  background: rgb(42, 71, 82);
+  background: rgba(43, 71, 82, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(23, 39, 45, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card-lg {
+  background: rgb(42, 71, 82);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 71, 82, 1) 36%,
+    rgba(73, 110, 138, 1) 100%
+  );
+  transition: ease-in-out 1s;
+}
+.card-lg:hover {
+  background: rgb(42, 71, 82);
+  background: rgba(43, 71, 82, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(23, 39, 45, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+svg {
+  position: absolute;
+  z-index: -20;
+}
+
+.button {
+  background-color: #182c3a;
+  color: #fff;
+  transition: ease-in-out 0.5s;
+}
+.button:hover {
+  background-color: #121e28;
+  color: #edeeef;
+}
